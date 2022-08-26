@@ -12,64 +12,110 @@ The main file greets the user upon execution and prompts the user to enter a dec
 
 """
 *****************************
+
 DECIMAL TO RADIX-i converter
+
 Written by: Simiso and Aldo
+
 Date: 2022
+
 *****************************
 
 
+
+
 Enter positive decimal number: 
+
 """
 
 Upon entering a number (ie., 134435) it then asks you for a radix-i between 2 and 16 (i.e, 16).
 
 """
 *****************************
+
 DECIMAL TO RADIX-i converter
+
 Written by: Simiso and Aldo
+
 Date: 2022
+
 *****************************
 
 
+
+
 Enter positive decimal number: 134435
+
 The number you have entered is 134435
 
+
+
 Enter a radix for the converter between 2 and 16: 16
+
 The radix you have entered is 16
+
 The log2 of the number is 17.04
 
+
+
 The integer result of the number divided by 16 is 8402
+
 The remainder is 3
+
+
 
 The radix-16 value is {20D23}(BASE_16)
 
+
+
 Enter positive decimal number: 
+
 """
 
 It returns the log2 of the decimal number and the radix-16 of the number, and it loops again and prompts the user to enter another decimal values until a negative number is entered which EXIT from the execution.
 
 """
 *****************************
+
 DECIMAL TO RADIX-i converter
+
 Written by: Simiso and Aldo
+
 Date: 2022
+
 *****************************
 
 
+
+
 Enter positive decimal number: 
+
 The number you have entered is 134435
 
+
+
 Enter a radix for the converter between 2 and 16: 16
+
 The radix you have entered is 16
+
 The log2 of the number is 17.04
 
+
+
 The integer result of the number divided by 16 is 8402
+
 The remainder is 3
+
+
 
 The radix-16 value is {20D23}(BASE_16)
 
+
+
 Enter positive decimal number: -1
+
 EXIT
+
 """
 
 
@@ -77,18 +123,30 @@ The main file also has parameters set within it, such as if the user enters a ra
 
 """
 *****************************
+
 DECIMAL TO RADIX-i converter
+
 Written by: Simiso and Aldo
+
 Date: 2022
+
 *****************************
 
 
+
+
 Enter positive decimal number: 134435
+
 The number you have entered is 134435
 
+
+
 Enter a radix for the converter between 2 and 16: 1
+
 Radix value must be between 2 and 16: 25
+
 Radix value must be between 2 and 16: 
+
 """
 
 Other parameters are such that only integer decimal numbers are used in this converter. So if a user enters a fraction it will be converted to an integer and that is handled in the backend.
